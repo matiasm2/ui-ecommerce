@@ -1,0 +1,41 @@
+@import "../../styles/constants";
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-32;
+  padding: $spacing-16;
+
+  &__preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-16;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 100;
+    max-width: 424px;
+    gap: $spacing-32;
+
+    .item-detail__title {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-16;
+    }
+
+    .item-detail__price {
+      display: flex;
+      align-items: center;
+      gap: $spacing-8;
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    gap: $spacing-16;
+  }
+}

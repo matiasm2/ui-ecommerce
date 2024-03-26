@@ -1,0 +1,26 @@
+@import '../../styles/constants';
+
+.header__search-bar {
+  display: flex;
+  flex-grow: 100;
+
+  input {
+    flex-grow: 100;
+    border: none;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    height: 32px;
+    max-width: 950px;
+    padding-left: $spacing-8;
+    outline: none;
+  }
+
+  button {
+    background-color: $background-secondary;
+    border: none;
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    height: 34px;
+    cursor: pointer;
+  }
+}

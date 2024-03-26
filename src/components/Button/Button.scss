@@ -1,0 +1,11 @@
+@import "../../styles/constants";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $button-background;
+  border-radius: $border-radius;
+  padding: $spacing-16 0;
+  text-decoration: none;
+}

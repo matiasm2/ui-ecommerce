@@ -1,0 +1,14 @@
+@import '../../styles/constants';
+
+.header {
+  min-width: 200px;
+  padding: $spacing-8;
+  background-color: $background-primary;
+
+  &__container {
+    display: flex;
+    gap: $spacing-16;
+    margin: auto;
+    max-width: 1184px;
+  }
+}

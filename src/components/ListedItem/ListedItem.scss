@@ -1,0 +1,40 @@
+@import "../../styles/constants";
+
+.listed-item {
+  display: flex;
+  border-bottom: 1px solid $background-secondary;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__preview {
+    border-radius: $border-radius;
+    padding-right: $spacing-16;
+    padding-bottom: $spacing-16;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-32;
+    margin: $spacing-32 0;
+    max-width: 550px;
+
+    .listed-item__price {
+      display: flex;
+      gap: $spacing-8;
+    }
+  }
+
+  &__city {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 100;
+    padding: $spacing-32;
+  }
+}
+
+.no-styled-link {
+  text-decoration: none;
+}

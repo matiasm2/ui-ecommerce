@@ -1,0 +1,7 @@
+@import '../../styles/constants';
+
+.container {
+  border-radius: $border-radius;
+  padding: $spacing-16;
+  background-color: $background-tertiary;
+}

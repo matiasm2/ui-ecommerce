@@ -1,0 +1,18 @@
+@import '../../styles/constants';
+
+.breadcrumbs {
+  padding-bottom: $spacing-16;
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .breadcrumbs__item {
+      display: flex;
+    }
+
+    .breadcrumbs__separator {
+      margin: 0 $spacing-4;
+    }
+  }
+}

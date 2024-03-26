@@ -1,0 +1,12 @@
+@import '../styles/constants';
+
+body {
+  margin: 0;
+  background-color: $background-secondary;
+
+  .site-container {
+    margin: auto;
+    max-width: 1184px;
+    padding: $spacing-16 $spacing-8;
+  }
+}
